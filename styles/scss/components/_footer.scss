@@ -1,0 +1,36 @@
+.footer {
+  &-title {
+    margin-top: 40px;
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  &-container {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-navigation {}
+
+  &-line {
+    margin: 0 auto 30px auto;
+    width: 100px;
+    border-top: 1px solid #50E3C2;
+  }
+
+  &-img1 {
+    height: 50px;
+    width: 70px;
+  }
+  &-img2 {
+    height: 50px;
+    width: 70px;
+  }
+  &-img3 {
+    height: 40px;
+    width: 70px;
+  }
+}

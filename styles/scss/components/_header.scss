@@ -1,0 +1,24 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-image: url("../scss/imgs/TE.jpeg");
+  background-size: 1920px 1080px;
+  background-position: center;
+  &-logo {
+    margin: 80px auto;
+  }
+
+  &-title {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    margin-top: 100px;
+    @include for-size(tablet-portrait-up) {
+      font-size: 40px;
+      margin-top: 150px;
+    }
+    @include for-size(big-desktop-up) {
+      font-size: 60px; 
+    }
+  }
+}

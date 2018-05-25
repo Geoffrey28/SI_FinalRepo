@@ -1,0 +1,30 @@
+@import './global/variables';
+@import './mixins/responsive';
+@import './components/header';
+@import './components/homeStats';
+@import './components/menu';
+@import './components/chiffre';
+@import './components/footer';
+@import './components/contactDesktop';
+@import './components/top100';
+@import './components/contact';
+@import './components/partners';
+@import './components/annonce';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+
+body {
+  width: 100%;
+  background-color: #fefefe;
+  font-family: 'Avenir'
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.siteContent {
+  width: 100%;
+  background: #fefefe;
+  overflow-x: hidden;
+}
