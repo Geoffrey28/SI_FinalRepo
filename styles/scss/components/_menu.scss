@@ -15,6 +15,7 @@
 &-liste {
   color: #fff;
   cursor: pointer;
+  text-decoration: underline;
 }
   &-social {
     position: fixed;
@@ -33,11 +34,12 @@
   }
   &-openMenu {
     opacity: 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 70vh;
-    background: rgba(80, 225, 194, 0.75);
-    top: 0;
+    background: rgba(80, 225, 194, 0.90);
+    z-index: 33;
+    bottom: -70vh;
     @include for-size (tablet-portrait-up) {
       width: 50%;
       left: 50%;
@@ -57,7 +59,8 @@
       cursor: pointer;
     }
     &-texts {
-      margin-top: 150px;
+      margin: 150px auto 0 auto;
+      width: 40%;
       &-link {
           font-size: 14px;
           line-height: 21px;
@@ -66,6 +69,14 @@
           justify-content: center;
           display: flex;
           margin-top: 30px;
+          border-radius: 10px;
+          @include for-size(tablet-portrait-up) {
+            font-size: 20px;
+            margin-top: 50px;
+          }
+          &:hover {
+            box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2)
+          }
       }
     }
   }
@@ -73,17 +84,17 @@
 
 .translate {
   opacity: 1;
-  top: -70vh;
+  bottom: 0;
   animation: translate 3s;
 }
 
 @keyframes translate {
   FROM
   {
-    top: 0;
+    bottom: -70vh;
   }
   TO
   {
-    top: -70vh;
+    bottom: 0;
   }
 }

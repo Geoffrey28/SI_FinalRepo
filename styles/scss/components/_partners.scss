@@ -27,8 +27,8 @@
   &-text {
     font-size: 0.8rem;
     padding: 10px;
+    padding-left: 20%;
     @include for-size(tablet-portrait-up) {
-     text-align: left;
      font-size: 1.1rem;
     }
   }
@@ -176,6 +176,7 @@
     &-container {
       width: 90%;
       margin: 0 auto;
+      text-align: center;
       @include for-size(tablet-portrait-up) {
         width: 40%;
       }

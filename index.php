@@ -159,37 +159,35 @@
         </div>
       </div>
     </section>
-
-    <div class="row">
-    <section class="col-xs-12 col-md-6 col-lg-6 partners">
-
-    <div class="partners-Container">
-      <h1 class="partners-text">UNE ANNEE DE VOYAGE</h1>
-      <h3 class="partners-text">32, rue des peupliers</h3>
-      <h3 class="partners-text">92100 Boulogne</h3>
-      <a class="partners-text" media=""href="tel:+33(0)-413-10-513">Phone :+33(0) 413 10 513</a><br>
-     <h3 class="partners-text">Email :</h3><a class="partners-text"href="mailto:rédaction@uneanneedevoyage.com">rédaction@uneanneedevoyages.com</a>
-     <h3 class="partners-text">Ouvert du lundi au vendredi de 10h à 18h</h3>
-   </div>
-    <div class="partners-writing-container col-xs-12 col-md-6 col-lg-6">
-      <form class="partners-writing-container-form" action="index.php" method="post">
-        <select class="partners-writing-container-form-select">
-          <option value disabled selected>Vous êtes...</option>
-          <option value="Annonceur">Annonceur</option>
-          <option value="Journaliste">Journaliste</option>
-          <option value="Partenaire">Partenaire</option>
-          <option value="Lecteur">Lecteur</option>
-          <option value="Office de Tourisme">Office de Tourisme</option>
-        </select>
-        <input class="partners-writing-container-form-input" placeholder="Votre société" type="text">
-        <input class="partners-writing-container-form-input" placeholder="Votre nom" type="text">
-        <input class="partners-writing-container-form-input" placeholder="Votre e-mail" type="text">
-        <input class="partners-writing-container-form-input" placeholder="Votre téléphone" type="text">
-        <textarea class="partners-writing-container-form-textArea" placeholder="Votre message" rows="8" cols="80"></textarea>
-        <button class="partners-writing-container-form-button" type="submit" name="button">Envoyer</button>
-      </form>
-    </div>
-  </div>
+    <section>
+      <div class="row">
+        <div class="partners-Container col-xs-12 col-md-6 col-lg-6">
+          <h1 class="partners-text">UNE ANNEE DE VOYAGE</h1>
+          <h3 class="partners-text">32, rue des peupliers</h3>
+          <h3 class="partners-text">92100 Boulogne</h3>
+          <a class="partners-text" media=""href="tel:+33(0)-413-10-513">Phone :+33(0) 413 10 513</a><br>
+         <h3 class="partners-text">Email :</h3><a class="partners-text"href="mailto:rédaction@uneanneedevoyage.com">rédaction@uneanneedevoyages.com</a>
+         <h3 class="partners-text">Ouvert du lundi au vendredi de 10h à 18h</h3>
+       </div>
+        <div class="partners-writing-container col-xs-12 col-md-6 col-lg-6">
+          <form class="partners-writing-container-form" action="index.php" method="post">
+            <select class="partners-writing-container-form-select">
+              <option value disabled selected>Vous êtes...</option>
+              <option value="Annonceur">Annonceur</option>
+              <option value="Journaliste">Journaliste</option>
+              <option value="Partenaire">Partenaire</option>
+              <option value="Lecteur">Lecteur</option>
+              <option value="Office de Tourisme">Office de Tourisme</option>
+            </select>
+            <input class="partners-writing-container-form-input" placeholder="Votre société" type="text">
+            <input class="partners-writing-container-form-input" placeholder="Votre nom" type="text">
+            <input class="partners-writing-container-form-input" placeholder="Votre e-mail" type="text">
+            <input class="partners-writing-container-form-input" placeholder="Votre téléphone" type="text">
+            <textarea class="partners-writing-container-form-textArea" placeholder="Votre message" rows="8" cols="80"></textarea>
+            <button class="partners-writing-container-form-button" type="submit" name="button">Envoyer</button>
+          </form>
+        </div>
+      </div>
   </section>
 
   <footer class="footer">

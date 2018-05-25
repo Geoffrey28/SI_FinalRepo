@@ -10,15 +10,17 @@
   }
 
   &-title {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 22px;
+    color: rgba(200, 200, 200, 0.5);
+    font-size: 28px;
+    letter-spacing: 3px;
     margin-top: 100px;
     @include for-size(tablet-portrait-up) {
-      font-size: 40px;
+      font-size: 46px;
+      letter-spacing: 10px;
       margin-top: 150px;
     }
     @include for-size(big-desktop-up) {
-      font-size: 60px; 
+      font-size: 60px;
     }
   }
 }

@@ -27,7 +27,83 @@
         <h1 class="top100-categorie">Spas et Thalassos</h1>
   </div>
 
-  <div class="top100-article"></div>
+  <div class="row partners-wrapper">
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+      <div class="partners-wrapper-item partners-left">
+        <div class="partners-wrapper-item-date">
+          <p>Date</p>
+        </div>
+        <img class="partners-wrapper-item-img" alt="">
+        <div class="partners-wrapper-item-content">
+          <div class="partners-wrapper-item-title">
+            <h4>Titre</h4>
+            <span>|</span>
+            <h5>Lorem Ipsum</h5>
+          </div>
+          <p class="partners-wrapper-item-texts">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          </p>
+          <div class="partners-wrapper-item-company">
+            <p class="partners-wrapper-item-company-mark">Supreme de poulet</p>
+            <img class="partners-wrapper-item-company-logo" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+      <div class="partners-wrapper-item">
+        <div class="partners-wrapper-item-date">
+          <p>Date</p>
+        </div>
+        <img class="partners-wrapper-item-img" alt="">
+        <div class="partners-wrapper-item-content">
+          <div class="partners-wrapper-item-title">
+            <h4>Titre</h4>
+            <span>|</span>
+            <h5>Lorem Ipsum</h5>
+          </div>
+          <p class="partners-wrapper-item-texts">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          </p>
+          <div class="partners-wrapper-item-company">
+            <p class="partners-wrapper-item-company-mark">Supreme de poulet</p>
+            <img class="partners-wrapper-item-company-logo" alt="">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+      <div class="partners-wrapper-item partners-right">
+        <div class="partners-wrapper-item-date">
+          <p>Date</p>
+        </div>
+        <img class="partners-wrapper-item-img" alt="">
+        <div class="partners-wrapper-item-content">
+          <div class="partners-wrapper-item-title">
+            <h4>Titre</h4>
+            <span>|</span>
+            <h5>Lorem Ipsum</h5>
+          </div>
+          <p class="partners-wrapper-item-texts">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+          </p>
+          <div class="partners-wrapper-item-company">
+            <p class="partners-wrapper-item-company-mark">Supreme de poulet</p>
+            <img class="partners-wrapper-item-company-logo" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="top100-footer">
       <img class="top100-reseaux" src="Styles/scss/imgs/facebookBlack.png" alt="">
